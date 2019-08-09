@@ -8,6 +8,10 @@ Activate environment with `source venv/bin/activate`
 
 Run with `python amazon-bestseller.py <AIN>`
 
+This script requires ChromeDriver, which can be downloaded from https://chromedriver.chromium.org/downloads
+
+Get the one that matches your current Chrome install and put it in `~/.local`
+
 For example:
 
 ![Screenshot](docs/img/screenshot.png)
