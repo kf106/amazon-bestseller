@@ -1,10 +1,13 @@
 from selenium import webdriver
 import sys
+import os
 import json
 from selenium.webdriver.common.keys import Keys
 import time
 
-driver = webdriver.Chrome('~/.local/bin/chromedriver')
+home = os.getenv("HOME")
+
+driver = webdriver.Chrome(home + '/.local/bin/chromedriver')
 sites = ['com', 'co.uk', 'de', 'fr', 'es', 'com.mx', 'ca', 'co.jp', 'com.br', 'com.au', 'in' ]
 
 html="<html><head></head><body><h1>" + sys.argv[1] + "</h1>"
