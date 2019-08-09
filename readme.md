@@ -4,4 +4,4 @@ Selenium + Python application that takes your Amazin AIN product identifier as i
 
 For example:
 
-![Screenshot](doc/img/screenshot.png)
+![Screenshot](docs/img/screenshot.png)
