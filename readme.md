@@ -6,12 +6,14 @@ Install with `sudo ./install.sh`
 
 Activate environment with `source venv/bin/activate`
 
-Run with `python amazon-bestseller.py <AIN>`
+Run with `python amazon-bestseller.py <ASIN>`
 
 This script requires ChromeDriver, which can be downloaded from https://chromedriver.chromium.org/downloads
 
 Get the one that matches your current Chrome install and put it in `~/.local/bin/`
 
 For example:
+
+`(venv) kf106@media-pc:~/amazon-bestseller$ python amazon-bestseller.py B07W5HS8XZ`
 
 ![Screenshot](docs/img/screenshot.png)
