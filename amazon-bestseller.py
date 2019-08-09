@@ -4,6 +4,7 @@ import os
 import json
 from selenium.webdriver.common.keys import Keys
 import time
+from pathlib import Path
 
 home = os.getenv("HOME")
 
@@ -34,4 +35,8 @@ if not success:
     html = html + "<h2> No results for:</h2><ul>" + failure + "</ul>"
 
 html = html + "</body></html>"
-driver.execute_script("document.write('{}')".format(json.dumps(html)))
+file = open("result.html","w")
+file.write(html)
+file.close
+html_file = Path.cwd() / "result.html"
+driver.get(html_file.as_uri())
