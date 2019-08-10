@@ -1,6 +1,6 @@
 ## Scrape all Amazon sites for your product's Amazon Bestseller Rankings
 
-This is a Selenium + Python + ChromeDriver application that takes your Amazin ASIN product identifier as its first and only argument, visits each site in turn, scrapes the data and presents your cross-site rankings in the Selenium window at the end.
+This is a Selenium + Python + ChromeDriver application that takes your Amazon ASIN product identifier as its first and only argument, visits each site in turn, scrapes the data and presents your cross-site rankings in the Selenium window at the end.
 
 Install with `sudo ./install.sh`
 
